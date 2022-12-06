@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>简历</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh <!--vh是视图高度，100是百分比-->;
+        background-color: #eee;
+      }
+      /* *{
+        border: 1px solid black;
+      } */
+      .flex {
+        display: flex;
+      }
+      .baise {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .daohang {
+        padding: 10px 20px;
+        border-bottom: 1px solid rgb(197, 175, 175);
+        font-size: 14px;
+        color: #666;
+      }
+      <@media (max-width: 600px) {
+        .cebian {
+          display: none;
+        }
+        .neirong {
+          flex-direction: column;
+        }
+        .shuju {
+          flex-direction: column;
+          margin: 0 0 8px;
+          flex: auto;
+        }
+        .youqu {
+          margin-left: 8px;
+        }
+      }>
+    </style>
+  </head>
+  <body class="flex">
+    <!--侧边栏-->
+    <div style="width: 200px" class="cebian baise">
+      <!--头像栏-->
+      <div
+        style="
+          padding: 25px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+        "
+        class="column"
+      >
+        <img src="xiaolan.png" width="150px" height="200px" alt="" />
+        <div style="margin-left: 60px; margin-top: 10px; font-size: 20px">
+          <p style="margin: auto"><b>肖兰</b></p>
+        </div>
+      </div>
+      <!--左区-->
+      <div class="flex1">
+        <div class="daohang">
+          <h3>基本资料</h3>
+          <p>出生年月：1997.11</p>
+          <p>籍贯：湖南邵阳</p>
+          <p>电话：13647329802</p>
+          <p>邮箱：2246163798@163.com</p>
+        </div>
+        <div class="daohang">
+          <h3>技能及证书</h3>
+          <p>
+            大学英语四级、六级<br />
+            普通话证书二级甲等<br />
+            计算机二级证书<br />
+            高级中学教师资格证(生物)<br />
+            熟悉使用PPT、Word、Excel等软件
+          </p>
+        </div>
+        <div class="daohang">
+          <h3>个人爱好</h3>
+          <p>舞蹈、羽毛球<br />摄影、游泳</p>
+        </div>
+      </div>
+    </div>
+    <!--右区-->
+    <div style="margin-left: 10px" class="flex1 column baise">
+      <!--第一栏-->
+      <div class="flex">
+        <div
+          style="
+            height: 50px;
+            margin-top: 20px;
+            border-top: 1px solid rgb(197, 175, 175);
+          "
+          class="flex1"
+        >
+          <p style="color: blue; font-size: 20px; margin: 10px">教育背景</p>
+        </div>
+      </div>
+
+      <div>
+        <p style="margin: 20px">
+          <b>2020.09-2023.06 中国科学院大学(硕士)生物化学与分子生物学</b><br />
+          GPA:3.73<br />
+          主修课程：生物样品与关键蛋白、生物药物研究与开发、分子生物学研究
+          技术、生物技术药物、酶动力学、细胞的物理生物学、天然药物合成、生
+          物伦理学等
+        </p>
+        <p style="margin: 20px">
+          <b> 2015.09-2019.06 湖南科技大学(本科) 生物科学</b><br />
+          GPA:3.75 <b>(专业排名前10%)</b><br />
+          主修课程：生物化学、细胞生物学、 发育生物学、分子生物学、生物信息
+          学、生物统计学、遗传学、动物生物学、微生物学、 植物学等
+        </p>
+      </div>
+      <div class="flex">
+        <div
+          style="
+            height: 50px;
+            margin-top: 20px;
+            border-top: 1px solid rgb(197, 175, 175);
+          "
+          class="flex1"
+        >
+          <p style="color: blue; font-size: 20px; margin: 10px">获奖荣誉</p>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 20px">
+          <li style="margin: 20px">
+            2021年中国科学院大学研究生学业奖学金二等奖
+          </li>
+        </p>
+
+        <p style="margin: 20px">
+          <li style="margin: 20px">
+            2020年中国科学院大学研究生学业奖学金二等奖
+          </li>
+        </p>
+
+        <p style="margin: 20px">
+          <li style="margin: 20px">
+            2021、2022年中国科学院大学生命科学学院党团员先锋示范岗
+          </li>
+        </p>
+
+        <p style="margin: 20px">
+          <li style="margin: 20px">
+            2022年中国科学院大学生命学院团员推优成为党支部发展对象
+          </li>
+        </p>
+
+        <p style="margin: 20px">
+          <li style="margin: 20px">
+            2018年湖南科技大学全国大学生SRIP项目创新创业奖
+          </li>
+        </p>
+
+        <p style="margin: 20px">
+          <li style="margin: 20px">2017年湖南科技大学交谊舞社团竞赛一等奖</li>
+        </p>
+      </div>
+      <div class="flex">
+        <div
+          style="
+            height: 50px;
+            margin-top: 20px;
+            border-top: 1px solid rgb(197, 175, 175);
+          "
+          class="flex1"
+        >
+          <p style="color: blue; font-size: 20px; margin: 10px">实验技能</p>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 20px">
+          1、<b>熟练掌握大肠杆菌及酵母蛋白表达与纯化技术</b>，
+          如蛋白提取，纯化，表
+          征等相关实验，熟练掌握AKTA、紫外分光光度计等仪器使用
+        </p>
+        <p style="margin: 20px">
+          2、<b>载体构建的分子技术</b>， 如引物设计、酶切、酶连、PCR技术、质粒提
+          取、DNA凝胶电泳技术等
+        </p>
+        <p style="margin: 20px">
+          <b>3、蛋白质凝胶电泳技术与蛋白免疫印迹实验技术相关实验
+        </p>
+        <p style="margin: 20px">
+          4、蛋白质的光谱分析技术，动力学及闪光光解实验， 以及光物理平台搭建
+        </p>
+        <p style="margin: 20px">5、蛋白脂质体制备技术等</p>
+        <p style="margin: 20px">6、分子筛反相色谱技术等</p>
+        <p style="margin: 20px">7、荧光定量PCR技术，如RNA提取等</b></p>
+      </div>
+      <div class="flex">
+        <div
+          style="
+            height: 50px;
+            margin-top: 20px;
+            border-top: 1px solid rgb(197, 175, 175);
+          "
+          class="flex1"
+        >
+          <p style="color: blue; font-size: 20px; margin: 10px">科研成果</p>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 20px">
+          已发表的文章： Effects of Cadmium-Resistant Bacteriumon Hot Pepper
+          Seeding Growing under Cadmium Stress
+        </p>
+        <p style="margin: 20px">
+          待发表的研究性文章：<b> K+-Dependent Photocycle and Photoelectric
+          Response Reveal the Uptake ofK+ in Light-Driven Sodium Pump (under
+          review)</b>
+        </p>
+      </div>
+      <div class="flex">
+        <div
+          style="
+            height: 50px;
+            margin-top: 20px;
+            border-top: 1px solid rgb(197, 175, 175);
+          "
+          class="flex1"
+        >
+          <p style="color: blue; font-size: 20px; margin: 10px">相关软件</p>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 20px">
+          已熟练掌握使用的实验分析、处理软件有：EndNote、GraphPad
+          prism、ImagerJ、Origin、Pymol、Wincoot、MEGA、SnapGene等
+        </p>
+      </div>
+      <div class="flex">
+        <div
+          style="
+            height: 50px;
+            margin-top: 20px;
+            border-top: 1px solid rgb(197, 175, 175);
+          "
+          class="flex1"
+        >
+          <p style="color: blue; font-size: 20px; margin: 10px">自我评价</p>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 20px">
+          1、在兴趣方面，本人性格开朗，爱好广泛，喜欢探索生物学上的奥秘
+        </p>
+        <p style="margin: 20px">
+          2、在科研方面，具有独立进行课题研究的能力，包括可以独立进行实
+          验，查找相关英文文献，总结英文文章的能力。
+        </p>
+        <p style="margin: 20px">
+          3、在工作上，可以吃苦耐劳，对待工作会认真负责，努力做好自己的
+          工作，具有较强的进取心。
+        </p>
+      </div>
+      <!--内容区-->
+      <div class="flex1 flex neirong">
+        <!--左区-->
+        <div class="flex column mg8">
+          <!--数据区-->
+
+          <!--列表区-->
+          <div style="flex column"></div>
+          <!--列表项-->
+          <div style="height: 160px" class="baise mgt8"></div>
+          <div style="height: 160px" class="baise mgt8"></div>
+          <div style="height: 160px" class="baise mgt8"></div>
+          <div style="height: 160px" class="baise mgt8"></div>
+          <div style="height: 160px" class="baise mgt8"></div>
+          <div style="height: 160px" class="baise mgt8"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
